@@ -1,0 +1,45 @@
+{
+  "name": "yoanm/symfony-jsonrpc-params-sf-constraints-doc",
+  "description": "Symfony bundle for easy Symfony constraints to JSON-RPC documentation transformation",
+  "license": "MIT",
+  "type": "library",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://github.com/yoanm/symfony-jsonrpc-params-sf-constraints-doc/issues"
+  },
+  "authors": [
+    {
+      "name": "Yoanm",
+      "email": "yoanm@users.noreply.github.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Yoanm\\SymfonyJsonRpcParamsSfConstraintsDoc\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests",
+      "Tests\\Functional\\BehatContext\\": "features/bootstrap"
+    }
+  },
+  "require": {
+    "php": ">=7.1",
+    "yoanm/jsonrpc-server-sdk": "dev-release/3.0.0",
+    "yoanm/jsonrpc-params-symfony-validator-sdk": "dev-release/1.0.0",
+    "yoanm/jsonrpc-params-symfony-constraint-doc-sdk": "dev-release/1.0.0",
+    "yoanm/symfony-jsonrpc-http-server-doc": "dev-feature/improve",
+    "symfony/http-kernel": "^3.0 || ^4.0",
+    "symfony/dependency-injection": "^3.0 || ^4.0"
+  },
+  "require-dev": {
+    "behat/behat": "~3.0",
+    "squizlabs/php_codesniffer": "3.*",
+    "phpunit/phpunit": "^6.0 || ^7.0",
+    "matthiasnoback/symfony-dependency-injection-test": "^2.0 || ^3.0",
+    "matthiasnoback/symfony-config-test": "^3.0 || ^4.0",
+    "yoanm/php-unit-extended": "~1.0"
+  }
+}
