@@ -21,7 +21,7 @@ class ServerDocCreatedListener
         $paramsValidationError = null;
 
         // Search for existing error in server errors list
-        foreach($event->getDoc()->getServerErrorList() as $serverError) {
+        foreach ($event->getDoc()->getServerErrorList() as $serverError) {
             if (JsonRpcInvalidParamsException::CODE === $serverError->getCode()) {
                 $paramsValidationError = $serverError;
                 break;
