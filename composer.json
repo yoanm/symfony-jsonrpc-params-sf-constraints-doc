@@ -30,7 +30,7 @@
     "yoanm/jsonrpc-server-sdk": "dev-release/3.0.0",
     "yoanm/jsonrpc-params-symfony-validator-sdk": "dev-release/1.0.0",
     "yoanm/jsonrpc-params-symfony-constraint-doc-sdk": "dev-release/1.0.0",
-    "yoanm/symfony-jsonrpc-http-server-doc": "dev-feature/improve",
+    "yoanm/symfony-jsonrpc-http-server-doc": "dev-release/0.1.0",
     "symfony/http-kernel": "^3.0 || ^4.0",
     "symfony/dependency-injection": "^3.0 || ^4.0"
   },
