@@ -8,4 +8,4 @@ services:
       - '@json_rpc_params_sf_constraints_doc_sdk.helper.type'
       - '@json_rpc_params_sf_constraints_doc_sdk.helper.string'
       - '@json_rpc_params_sf_constraints_doc_sdk.helper.min_max'
-      - '@json_rpc_params_sf_constraints_doc_sdk.helper.constrain_doc_payload'
+      - '@json_rpc_params_sf_constraints_doc_sdk.helper.constraint_doc_payload'
