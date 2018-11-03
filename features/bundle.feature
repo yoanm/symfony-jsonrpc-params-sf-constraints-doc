@@ -21,7 +21,7 @@ Feature: demo symfony application
                 "required": true
               },
               "b": {
-                "type": "string",
+                "type": "integer",
                 "nullable": true,
                 "required": true
               }
@@ -45,7 +45,7 @@ Feature: demo symfony application
                 "nullable": true,
                 "required": true,
                 "item_validation": {
-                  "type": "string",
+                  "type": "integer",
                   "nullable": true,
                   "required": false
                 }

@@ -33,7 +33,7 @@ class MethodC implements JsonRpcMethodInterface, MethodWithValidatedParamsInterf
     {
         return new Collection([
             'a' => new All([
-                new Type('string')
+                new Type('integer')
             ]),
         ]);
     }
