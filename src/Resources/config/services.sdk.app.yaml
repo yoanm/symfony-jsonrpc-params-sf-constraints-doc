@@ -5,7 +5,7 @@ services:
   json_rpc_params_sf_constraints_doc_sdk.helper.type:
     class: Yoanm\JsonRpcParamsSymfonyConstraintDoc\App\Helper\DocTypeHelper
     arguments:
-      - '@json_rpc_params_sf_constraints_doc_sdk.helper.constrain_doc_payload'
+      - '@json_rpc_params_sf_constraints_doc_sdk.helper.constraint_doc_payload'
       - '@json_rpc_params_sf_constraints_doc_sdk.helper.type_guesser'
 
   json_rpc_params_sf_constraints_doc_sdk.helper.type_guesser:
@@ -17,5 +17,5 @@ services:
   json_rpc_params_sf_constraints_doc_sdk.helper.min_max:
     class: Yoanm\JsonRpcParamsSymfonyConstraintDoc\App\Helper\MinMaxHelper
 
-  json_rpc_params_sf_constraints_doc_sdk.helper.constrain_doc_payload:
+  json_rpc_params_sf_constraints_doc_sdk.helper.constraint_doc_payload:
     class: Yoanm\JsonRpcParamsSymfonyConstraintDoc\App\Helper\ConstraintPayloadDocHelper
