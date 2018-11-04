@@ -13,14 +13,6 @@ class MethodC implements JsonRpcMethodInterface, MethodWithValidatedParamsInterf
     /**
      * {@inheritdoc}
      */
-    public function validateParams(array $paramList) : array
-    {
-        return [];
-    }
-
-    /**
-     * {@inheritdoc}
-     */
     public function apply(array $paramList = null)
     {
         return 'MethodC';

@@ -23,6 +23,8 @@ class MethodDocCreatedListener
 
     /**
      * @param MethodDocCreatedEvent $event
+     *
+     * @throws \ReflectionException
      */
     public function enhanceMethodDoc(MethodDocCreatedEvent $event)
     {
