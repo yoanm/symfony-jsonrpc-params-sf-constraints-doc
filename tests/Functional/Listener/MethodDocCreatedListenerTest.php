@@ -24,7 +24,7 @@ class MethodDocCreatedListenerTest extends TestCase
     /** ConstraintToParamsDocTransformer|ObjectProphecy */
     private $paramDocConverter;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->paramDocConverter = $this->prophesize(ConstraintToParamsDocTransformer::class);
 

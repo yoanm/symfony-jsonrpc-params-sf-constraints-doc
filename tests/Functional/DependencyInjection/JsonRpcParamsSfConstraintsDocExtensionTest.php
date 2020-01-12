@@ -11,7 +11,7 @@ class JsonRpcParamsSfConstraintsDocExtensionTest extends AbstractTestClass
 {
     public function testShouldBeLoadable()
     {
-        $this->load();
+        $this->loadContainer();
 
         $this->assertIsLoadable();
     }

@@ -19,7 +19,7 @@ class ServerDocCreatedListenerTest extends TestCase
     /** @var ServerDocCreatedListener */
     private $listener;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->listener = new ServerDocCreatedListener();
     }
