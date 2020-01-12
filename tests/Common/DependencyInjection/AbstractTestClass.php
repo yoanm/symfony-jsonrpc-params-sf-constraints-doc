@@ -13,14 +13,14 @@ abstract class AbstractTestClass extends AbstractExtensionTestCase
     /**
      * {@inheritdoc}
      */
-    protected function getContainerExtensions()
+    protected function getContainerExtensions(): array
     {
         return [
             new JsonRpcParamsSfConstraintsDocExtension()
         ];
     }
 
-    protected function load(array $configurationValues = [])
+    protected function loadContainer(array $configurationValues = []): void
     {
         parent::load($configurationValues);
 
