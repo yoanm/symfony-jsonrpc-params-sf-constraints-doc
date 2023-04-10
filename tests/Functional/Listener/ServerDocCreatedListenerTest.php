@@ -2,6 +2,7 @@
 namespace Tests\Functional\Endpoint;
 
 use PHPUnit\Framework\TestCase;
+use Prophecy\PhpUnit\ProphecyTrait;
 use Yoanm\JsonRpcServer\Domain\Exception\JsonRpcInvalidParamsException;
 use Yoanm\JsonRpcServerDoc\Domain\Model\ErrorDoc;
 use Yoanm\JsonRpcServerDoc\Domain\Model\ServerDoc;
@@ -16,6 +17,8 @@ use Yoanm\SymfonyJsonRpcParamsSfConstraintsDoc\Listener\ServerDocCreatedListener
  */
 class ServerDocCreatedListenerTest extends TestCase
 {
+    use ProphecyTrait;
+
     /** @var ServerDocCreatedListener */
     private $listener;
 

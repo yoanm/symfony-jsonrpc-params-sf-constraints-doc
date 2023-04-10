@@ -1,6 +1,7 @@
 <?php
 namespace Tests\Functional\DependencyInjection;
 
+use Prophecy\PhpUnit\ProphecyTrait;
 use Tests\Common\DependencyInjection\AbstractTestClass;
 use Yoanm\SymfonyJsonRpcParamsSfConstraintsDoc\DependencyInjection\JsonRpcParamsSfConstraintsDocExtension;
 
@@ -9,6 +10,8 @@ use Yoanm\SymfonyJsonRpcParamsSfConstraintsDoc\DependencyInjection\JsonRpcParams
  */
 class JsonRpcParamsSfConstraintsDocExtensionTest extends AbstractTestClass
 {
+    use ProphecyTrait;
+
     public function testShouldBeLoadable()
     {
         $this->loadContainer();

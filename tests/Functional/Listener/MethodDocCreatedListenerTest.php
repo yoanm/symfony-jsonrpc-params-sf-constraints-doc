@@ -3,6 +3,7 @@ namespace Tests\Functional\Endpoint;
 
 use PHPUnit\Framework\TestCase;
 use Prophecy\Argument;
+use Prophecy\PhpUnit\ProphecyTrait;
 use Symfony\Component\Validator\Constraint;
 use Symfony\Component\Validator\Constraints\Type;
 use Yoanm\JsonRpcParamsSymfonyConstraintDoc\Infra\Transformer\ConstraintToParamsDocTransformer;
@@ -18,6 +19,8 @@ use Yoanm\SymfonyJsonRpcParamsSfConstraintsDoc\Listener\MethodDocCreatedListener
  */
 class MethodDocCreatedListenerTest extends TestCase
 {
+    use ProphecyTrait;
+
     /** @var MethodDocCreatedListener */
     private $listener;
 
