@@ -1,6 +1,7 @@
 <?php
 namespace Tests\Functional\DependencyInjection;
 
+use Prophecy\PhpUnit\ProphecyTrait;
 use Tests\Common\DependencyInjection\AbstractTestClass;
 use Yoanm\JsonRpcParamsSymfonyConstraintDoc\App\Helper\ConstraintPayloadDocHelper;
 use Yoanm\JsonRpcParamsSymfonyConstraintDoc\App\Helper\DocTypeHelper;
@@ -18,6 +19,8 @@ use Yoanm\SymfonyJsonRpcParamsSfConstraintsDoc\Listener\ServerDocCreatedListener
  */
 class ConfigFilesTest extends AbstractTestClass
 {
+    use ProphecyTrait;
+
     /**
      * @dataProvider provideSDKInfraServiceIdAndClass
      * @dataProvider provideSDKAppServiceIdAndClass
