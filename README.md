@@ -22,9 +22,9 @@ Symfony bundle for [yoanm/jsonrpc-params-symfony-constraint-doc-sdk](https://git
 
 ## Versions
 
-*   Symfony v3/4 - PHP >=7.1 : `^v0.X`
-*   Symfony v4/5 - PHP >=7.2 : `^v1.0`
-*   Symfony v4.4/5.5/6.x - PHP ^8.0 : `^v1.1`
+* Symfony v3/4 - PHP >=7.1 : `^v0.X`
+* Symfony v4/5 - PHP >=7.2 : `^v1.0`
+* Symfony v4.4/5.5/6.x - PHP ^8.0 : `^v1.1`
 
 ## How to use
 
@@ -36,24 +36,24 @@ See below how to configure it.
 
 [Behat demo app configuration folders](./features/demo_app) can be used as examples.
 
-*   Add the bundles in your config/bundles.php file:
-    ```php
-    // config/bundles.php
-    return [
-        ...
-        Symfony\Bundle\FrameworkBundle\FrameworkBundle::class => ['all' => true],
-        Yoanm\SymfonyJsonRpcHttpServer\JsonRpcHttpServerBundle::class => ['all' => true],
-        Yoanm\SymfonyJsonRpcHttpServerDoc\JsonRpcHttpServerDocBundle::class => ['all' => true],
-        Yoanm\SymfonyJsonRpcParamsSfConstraintsDoc\JsonRpcParamsSfConstraintsDocBundle::class => ['all' => true],
-        ...
-    ];
-    ```
+* Add the bundles in your config/bundles.php file:
+  ```php
+  // config/bundles.php
+  return [
+      ...
+      Symfony\Bundle\FrameworkBundle\FrameworkBundle::class => ['all' => true],
+      Yoanm\SymfonyJsonRpcHttpServer\JsonRpcHttpServerBundle::class => ['all' => true],
+      Yoanm\SymfonyJsonRpcHttpServerDoc\JsonRpcHttpServerDocBundle::class => ['all' => true],
+      Yoanm\SymfonyJsonRpcParamsSfConstraintsDoc\JsonRpcParamsSfConstraintsDocBundle::class => ['all' => true],
+      ...
+  ];
+  ```
 
-*   Configure `yoanm/symfony-jsonrpc-http-server` as described on [yoanm/symfony-jsonrpc-http-server](https://github.com/yoanm/symfony-jsonrpc-http-server) documentation.
+* Configure `yoanm/symfony-jsonrpc-http-server` as described on [yoanm/symfony-jsonrpc-http-server](https://github.com/yoanm/symfony-jsonrpc-http-server) documentation.
 
-*   Configure `yoanm/symfony-jsonrpc-http-server-doc` as described on [yoanm/symfony-jsonrpc-http-server-doc](https://github.com/yoanm/symfony-jsonrpc-http-server-doc) documentation.
+* Configure `yoanm/symfony-jsonrpc-http-server-doc` as described on [yoanm/symfony-jsonrpc-http-server-doc](https://github.com/yoanm/symfony-jsonrpc-http-server-doc) documentation.
 
-*   Query your project at documentation endpoint and you should see JSON-RPC params documentation for each methods
+* Query your project at documentation endpoint and you should see JSON-RPC params documentation for each methods
 
  
 
