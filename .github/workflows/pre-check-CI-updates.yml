@@ -16,7 +16,6 @@ on:
       - '.github/workflows/coverage-upload.yml'
       - '.github/workflows/reusable-CI-workflow.yml'
       - '.github/workflows/reusable-coverage-upload-workflow.yml'
-      - '.github/workflows/auto-merge-dependabot.yml'
 
 permissions:
   contents: read
