@@ -2,7 +2,8 @@
 
 [![License](https://img.shields.io/github/license/yoanm/symfony-jsonrpc-params-sf-constraints-doc.svg)](https://github.com/yoanm/symfony-jsonrpc-params-sf-constraints-doc)
 [![Code size](https://img.shields.io/github/languages/code-size/yoanm/symfony-jsonrpc-params-sf-constraints-doc.svg)](https://github.com/yoanm/symfony-jsonrpc-params-sf-constraints-doc)
-[![Dependabot Status](https://api.dependabot.com/badges/status?host=github\&repo=yoanm/symfony-jsonrpc-params-sf-constraints-doc)](https://dependabot.com)
+![Dependabot Status](https://flat.badgen.net/github/dependabot/yoanm/symfony-jsonrpc-params-sf-constraints-doc)
+![Last commit](https://badgen.net/github/last-commit/yoanm/symfony-jsonrpc-params-sf-constraints-doc)
 
 [![Scrutinizer Build Status](https://img.shields.io/scrutinizer/build/g/yoanm/symfony-jsonrpc-params-sf-constraints-doc.svg?label=Scrutinizer\&logo=scrutinizer)](https://scrutinizer-ci.com/g/yoanm/symfony-jsonrpc-params-sf-constraints-doc/build-status/master)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/yoanm/symfony-jsonrpc-params-sf-constraints-doc/master.svg?logo=scrutinizer)](https://scrutinizer-ci.com/g/yoanm/symfony-jsonrpc-params-sf-constraints-doc/?branch=master)
