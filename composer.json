@@ -37,7 +37,7 @@
     "yoanm/jsonrpc-params-symfony-validator-sdk": "^2.0",
     "yoanm/jsonrpc-server-doc-sdk": "^0.3 || ^1.0",
     "yoanm/jsonrpc-server-sdk": "^3.0",
-    "yoanm/symfony-jsonrpc-http-server-doc": "^1.1 || dev-feature/increase-supported-versions-sf7.0"
+    "yoanm/symfony-jsonrpc-http-server-doc": "^1.1 || ^2.0"
   },
   "require-dev": {
     "ext-json": "*",
